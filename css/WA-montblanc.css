@@ -1,5 +1,17 @@
 @charset "utf-8";
-.blank{width: 100%; height: 2000px;}
+.blank{ margin-top: 5rem; width: 100%; height: 2000px;}
+.clear{ clear: both;}
+.clear::after{ content:""; display:block; clear:both;}
+p.title{ font-size: 2rem; font-weight: bold;}
+p{ font-size: 1.8rem;}
+.btn{ 
+    width: 19.53%;
+    color: #CECECE;
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: 0.2rem solid #fff;
+    padding-bottom: 1rem;
+}
 /* .body-wrap{    width: 640px;} */
 html{
     width: 100%;
@@ -64,13 +76,7 @@ header .join{
 #disney .main-pic .btn{
     position: absolute;
     top: 45rem;
-    left: 14%;
-    width: 19.53%;
-    height: 3rem;
-    color: #CECECE;
-    border-bottom: 0.2rem solid #fff;
-    font-size: 1.8rem;
-    text-align: center;
+    left: 14%;    
 }
 /* 메인 상단 디즈니 컬렉션 영역 */
 #disney .slide{
@@ -163,7 +169,6 @@ header .join{
     font-size: 1.8rem;
 }
 #trolley p.title{
-    font-weight: bold;
     margin: 1.2rem auto;
 }
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .txt p.title{
@@ -202,13 +207,17 @@ header .join{
     height: 25rem;
 }
 /*  시계 1858컬렉션 영역  */
+#watches{
+    width: 100%;
+    margin-top: 6rem;
+}
 #watches > div{
     margin: auto 1.8%;
 }
 #watches .wa-title p{
     font-size: 2.5rem;
     font-weight: bold;
-    margin: 1.56% auto;
+    margin: 1.2rem auto;
 }
 #watches .wa-title p.name{
     font-size: 1.6rem;
@@ -233,15 +242,9 @@ header .join{
     position: relative;
 }
 #watches .wa-pic a{
-    color: #fff;
-    font-size: 1.8rem;
-    text-align: center;
-    position: absolute;
-    width: 12.5rem;
-    padding-bottom: 1rem;
+    position: absolute;    
     bottom: 35%;
     left: 12.5%;
-    border-bottom: 1px solid #fff;
 }
 /* 시계 아이템 영역 */
 #watches .wa-item-wrap{
@@ -255,4 +258,73 @@ header .join{
     text-align: center;
     font-size: 1.8rem;
     margin-top: 5rem;
+}
+/* 몽블랑의 선물 영역 */
+#gift{
+    width: 100%;
+    margin-top: 12rem;
+}
+#gift .gift-top{
+    width: 100%;
+    height: 30rem;
+    background: url(../images/04.gift/00-main-gift_Hero-Slider-Desktop_640_300.png) no-repeat;
+    position: relative;
+}
+#gift .gift-top .txt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+#gift .gift-top .txt p.title{
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+#gift .gift-middle{
+    width: 100%;
+    height: 23rem;
+}
+#gift .gift-middle p{
+    text-align: center;
+}
+#gift .gift-middle p:nth-child(1){
+    padding-top: 10rem;
+}
+#gift .gift-middle p:nth-child(2){
+    padding-top: 2rem;
+}
+#gift .gift-bottom .gift-item{
+    float: left;
+    width: 46.87%;
+    height: 30rem;
+    background-color: #000;
+    position: relative;
+}
+#gift .gift-bottom .gift-item a.btn{
+    position: absolute;
+    width: 45%;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#gift .gift-bottom .gift-item:nth-child(1){
+    margin-right: 1.8%;
+    margin-left: 1.8%;
+    background: url(../images/04.gift/01_Hero_Teaser_Desktop_2880x1200_Dennis.png) no-repeat;
+}
+#gift .gift-bottom .gift-item:nth-child(2){
+    background: url(../images/04.gift/02_Article_Image_Desktop_780x1168_DPK.png) no-repeat;
+}
+#gift .gift-bottom .gift-item:nth-child(3){
+    margin-right: 1.8%;
+    margin-left: 1.8%;
+    margin-top: 1.2rem;
+    background: url(../images/04.gift/04.BusinessCard_Desktop_LEA_1572x880.png) no-repeat;
+}
+#gift .gift-bottom .gift-item:nth-child(4){
+    margin-top: 1.2rem;
+    background: url(../images/04.gift/05_Article_Image_Desktop_1168x780_anas.png) no-repeat;
 }
