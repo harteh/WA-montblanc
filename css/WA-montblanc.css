@@ -26,7 +26,7 @@ body{
 /* 헤더 영역 시작 */
 header{
     width: 100%;
-    height: 8rem;
+    height: 7vh;
     overflow: hidden;
 }
 header > div{
@@ -38,25 +38,25 @@ header > div img{
     height: 100%;
 }
 header .menu{
-    width: 3.9%;    
-    height: 2.5rem;
+    width: 3.9vw;    
+    height: 2.2vh;
     margin-left: 1.8%;
 }
 header .logo{
     margin: auto 30%;
-    width: 27.65%;
+    width: 27.65vw;
     height: 3.5rem;
 }
 header .join{
-    width: 3.9%;
-    height: 2.5rem;
+    width: 3.9vw;    
+    height: 2.2vh;
     margin-right: 1.8%;
 }
 /* 헤더 영역 끝 */
 /* 디즈니 메인 배너 영역 시작 */
 #disney .main-pic{
     width: 100%;
-    height: 58rem;    
+    height: 51.14vh;
     border-radius: 0 0 0 20%;
     background: url(../images/01.disney/01.main-disney_landing_desktop_2.png) 15% no-repeat;
     position: relative;
@@ -99,12 +99,12 @@ header .join{
     float: left;
 }
 #disney .slide .slide-wrap .item img{
-    width: 25rem;
-    height: 25rem;
+    width: 39vw;
+    height: 22vh;
 }
 #disney .slide .slide-wrap .item .txt{
-    width: 25rem;
-    height: 9.5rem;
+    width: 39vw;
+    height: 8.38vh;
     margin-top: 2rem;
     color: #000;
     font-size: 1.8rem;
@@ -133,18 +133,18 @@ header .join{
     position: absolute;
     top: 0;
     right: 2.4rem;
-    width: 14%;
-    height: 3rem;
+    width: 14vw;
+    height: 2.64vh;
 }
 #trolley .tr-arrow i.fas{
     font-size: 2.8rem;
 }
 #trolley .tr-arrow i.fas:first-child{
-    margin-right: 50%;
+    margin-right: 40%;
 }
 #trolley .tr-slide{
     width: 100%;
-    height: 85rem;
+    height: 74.96vh;
     /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
     overflow: hidden;
 }
@@ -160,7 +160,7 @@ header .join{
 /* 트롤리 배너 상단 영역 - 메인 타이틀 + 사진 */
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top{
     width: 100%;
-    height: 53.5rem;
+    height: 47.18vh;
 }
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .txt{
     margin-left: 1.8%;
@@ -176,17 +176,15 @@ header .join{
 }
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .pic{
     width: 100%;
-    height: 45rem;
+    height: 39.68vh;
 }
 /* 트롤리 배너 하단 영역 - 상품 설명 + 사진 */
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom{
     width: 100%;
-    height: 26rem;
+    height: 22.92vh;
     margin-top: 5.5rem;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left{
-    width: 53%;
-    height: 65%;
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left{    
     float: left;
     margin: 6.5% 1.8%;
 }
@@ -197,14 +195,13 @@ header .join{
     margin-top: 1.2rem;
 }
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right{
-    width: 41%;
-    height: 100%;
     float: left;
-    margin-right: 1.8%;
+    width: 39.06vw;
+    height: 22.04vh;
 }
 #trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right img{
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
+    height: 100%;
 }
 /*  시계 1858컬렉션 영역  */
 #watches{
