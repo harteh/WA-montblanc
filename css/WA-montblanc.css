@@ -2,20 +2,17 @@
 .blank{ margin-top: 5rem; width: 100%; height: 2000px;}
 .clear{ clear: both;}
 .clear::after{ content:""; display:block; clear:both;}
-p.title{ font-size: 2rem; font-weight: bold;}
-p{ font-size: 1.8rem;}
-.btn{ 
-    width: 19.53%;
+p.title{ font-size: 1.25rem; font-weight: bold;}
+p{ font-size: 1.125rem;}
+.btn{
     color: #CECECE;
-    font-size: 1.8rem;
+    font-size: 1.125rem;
     text-align: center;
     border-bottom: 0.2rem solid #fff;
-    padding-bottom: 1rem;
+    padding-bottom: 0.88rem;
 }
-/* .body-wrap{    width: 640px;} */
 html{
     width: 100%;
-    font-size: 10px;
 }
 body{
     width: 100%;
@@ -31,7 +28,7 @@ header{
 }
 header > div{
     float: left;
-    line-height: 8rem;
+    padding-top: 1.76vh;
 }
 header > div img{
     width: 100%;
@@ -45,7 +42,7 @@ header .menu{
 header .logo{
     margin: auto 30%;
     width: 27.65vw;
-    height: 3.5rem;
+    height: 3.08vh;
 }
 header .join{
     width: 3.9vw;    
@@ -63,11 +60,11 @@ header .join{
 }
 #disney .main-pic .txt{
     position: absolute;
-    top: 36.5rem;
+    top: 32.18vh;
     left: 6%;
     color: #fff;
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     font-weight: lighter;
 }
 #disney .main-pic .txt .title{
@@ -75,13 +72,13 @@ header .join{
 }
 #disney .main-pic .btn{
     position: absolute;
-    top: 45rem;
+    top: 41vh;
     left: 14%;    
 }
 /* 메인 상단 디즈니 컬렉션 영역 */
 #disney .slide{
     width: 100%;
-    height: 40rem;
+    height: 35.26vh;
     margin-top: 6rem;
     position: relative;
     /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
@@ -105,14 +102,15 @@ header .join{
 #disney .slide .slide-wrap .item .txt{
     width: 39vw;
     height: 8.38vh;
-    margin-top: 2rem;
+    margin-top: 1.76rem;
     color: #000;
-    font-size: 1.8rem;
-    line-height: 2rem;
     text-align: center;
 }
+#disney .slide .slide-wrap .item .txt p{
+    font-size: 1rem;
+}
 #disney .slide .slide-wrap .item .txt p:last-child{
-    margin-top: 0.5rem;
+    margin-top: 0.44rem;
 }
 /* 디즈니 슬라이드 하단 인디게이터 영역  */
 #disney .slide .disney-indicator{
