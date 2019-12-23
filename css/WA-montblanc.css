@@ -1,0 +1,258 @@
+@charset "utf-8";
+.blank{width: 100%; height: 2000px;}
+/* .body-wrap{    width: 640px;} */
+html{
+    width: 100%;
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', sans-serif;    
+}
+/* 헤더 영역 시작 */
+header{
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+}
+header > div{
+    float: left;
+    line-height: 8rem;
+}
+header > div img{
+    width: 100%;
+    height: 100%;
+}
+header .menu{
+    width: 3.9%;    
+    height: 2.5rem;
+    margin-left: 1.8%;
+}
+header .logo{
+    margin: auto 30%;
+    width: 27.65%;
+    height: 3.5rem;
+}
+header .join{
+    width: 3.9%;
+    height: 2.5rem;
+    margin-right: 1.8%;
+}
+/* 헤더 영역 끝 */
+/* 디즈니 메인 배너 영역 시작 */
+#disney .main-pic{
+    width: 100%;
+    height: 58rem;    
+    border-radius: 0 0 0 20%;
+    background: url(../images/01.disney/01.main-disney_landing_desktop_2.png) 15% no-repeat;
+    position: relative;
+}
+#disney .main-pic .txt{
+    position: absolute;
+    top: 36.5rem;
+    left: 6%;
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+#disney .main-pic .txt .title{
+    font-weight: bold;
+}
+#disney .main-pic .btn{
+    position: absolute;
+    top: 45rem;
+    left: 14%;
+    width: 19.53%;
+    height: 3rem;
+    color: #CECECE;
+    border-bottom: 0.2rem solid #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+/* 메인 상단 디즈니 컬렉션 영역 */
+#disney .slide{
+    width: 100%;
+    height: 40rem;
+    margin-top: 6rem;
+    position: relative;
+    /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
+    overflow: hidden;
+}
+#disney .slide .slide-wrap{
+    /* 아이템 5개 */
+    width: 250%;
+    height: 100%;
+    margin-left: 19%;
+}
+#disney .slide .slide-wrap .item{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#disney .slide .slide-wrap .item img{
+    width: 25rem;
+    height: 25rem;
+}
+#disney .slide .slide-wrap .item .txt{
+    width: 25rem;
+    height: 9.5rem;
+    margin-top: 2rem;
+    color: #000;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+#disney .slide .slide-wrap .item .txt p:last-child{
+    margin-top: 0.5rem;
+}
+/* 디즈니 슬라이드 하단 인디게이터 영역  */
+#disney .slide .disney-indicator{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    width: 0%;
+    background-color: teal;
+}
+/* 박서준. 슬라이드 배너 영역 */
+#trolley{
+    margin-top: 8rem;
+    width: 100%;
+    position: relative;
+}
+#trolley .tr-arrow{
+    position: absolute;
+    top: 0;
+    right: 2.4rem;
+    width: 14%;
+    height: 3rem;
+}
+#trolley .tr-arrow i.fas{
+    font-size: 2.8rem;
+}
+#trolley .tr-arrow i.fas:first-child{
+    margin-right: 5rem;
+}
+#trolley .tr-slide{
+    width: 100%;
+    height: 85rem;
+    /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
+    overflow: hidden;
+}
+#trolley .tr-slide .tr-slide-wrap{
+    width: 300%;
+    height: 100%;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+/* 트롤리 배너 상단 영역 - 메인 타이틀 + 사진 */
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top{
+    width: 100%;
+    height: 53.5rem;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .txt{
+    margin-left: 1.8%;
+}
+#trolley p{
+    font-size: 1.8rem;
+}
+#trolley p.title{
+    font-weight: bold;
+    margin: 1.2rem auto;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .txt p.title{
+    font-size: 2.6rem;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .pic{
+    width: 100%;
+    height: 45rem;
+}
+/* 트롤리 배너 하단 영역 - 상품 설명 + 사진 */
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom{
+    width: 100%;
+    height: 26rem;
+    margin-top: 5.5rem;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left{
+    width: 53%;
+    height: 65%;
+    float: left;
+    margin: 6.5% 1.8%;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left p{
+    line-height: 2.5rem;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left p:last-child{
+    margin-top: 1.2rem;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right{
+    width: 41%;
+    height: 100%;
+    float: left;
+    margin-right: 1.8%;
+}
+#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right img{
+    width: 25rem;
+    height: 25rem;
+}
+/*  시계 1858컬렉션 영역  */
+#watches > div{
+    margin: auto 1.8%;
+}
+#watches .wa-title p.name{
+    font-size: 1.6rem;
+    position: relative;
+}
+#watches .wa-title p.name::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    transform: translateY(-50%);    
+    width: 82.5%;
+    height: 0.1rem;
+    background-color: #858484;
+}
+#watches .wa-title p{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1.56% auto;
+}
+#watches .wa-pic{
+    width: 96.4%;
+    height: 45rem;
+    background: url(../images/03.1858/03-main-collection-desktop-2880x1200.png) no-repeat;
+    border-radius: 5%;
+    position: relative;
+}
+#watches .wa-pic a{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    width: 12.5rem;
+    padding-bottom: 1rem;
+    bottom: 35%;
+    left: 12.5%;
+    border-bottom: 1px solid #fff;
+}
+/* 시계 아이템 영역 */
+#watches .wa-item-wrap{
+    width: 100%;
+    margin-top: 5rem;
+}
+#watches .wa-item-wrap .wa-item{
+    float: left;
+}
+#watches .wa-item-wrap .wa-item .txt{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+}
