@@ -140,7 +140,7 @@ header .join{
     font-size: 2.8rem;
 }
 #trolley .tr-arrow i.fas:first-child{
-    margin-right: 5rem;
+    margin-right: 50%;
 }
 #trolley .tr-slide{
     width: 100%;
@@ -253,6 +253,12 @@ header .join{
 }
 #watches .wa-item-wrap .wa-item{
     float: left;
+    width: 50%;
+    height: 100%;
+}
+#watches .wa-item-wrap .wa-item .pic{
+    width: 100%;
+    height: 31rem;
 }
 #watches .wa-item-wrap .wa-item .txt{
     text-align: center;
@@ -295,36 +301,69 @@ header .join{
 #gift .gift-middle p:nth-child(2){
     padding-top: 2rem;
 }
+#gift .gift-bottom{
+    width: 100%;
+    height: 64rem;
+}
 #gift .gift-bottom .gift-item{
     float: left;
-    width: 46.87%;
+    width: 46.86%;
     height: 30rem;
     background-color: #000;
     position: relative;
 }
 #gift .gift-bottom .gift-item a.btn{
-    position: absolute;
     width: 45%;
     color: #fff;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 #gift .gift-bottom .gift-item:nth-child(1){
-    margin-right: 1.8%;
-    margin-left: 1.8%;
+    margin-right: 2%;
+    margin-left: 2%;
     background: url(../images/04.gift/01_Hero_Teaser_Desktop_2880x1200_Dennis.png) no-repeat;
 }
 #gift .gift-bottom .gift-item:nth-child(2){
     background: url(../images/04.gift/02_Article_Image_Desktop_780x1168_DPK.png) no-repeat;
 }
-#gift .gift-bottom .gift-item:nth-child(3){
-    margin-right: 1.8%;
-    margin-left: 1.8%;
-    margin-top: 1.2rem;
+#gift .gift-bottom .gift-item:nth-child(3){    
+    margin: 1.2rem 2% auto 2%;
     background: url(../images/04.gift/04.BusinessCard_Desktop_LEA_1572x880.png) no-repeat;
 }
 #gift .gift-bottom .gift-item:nth-child(4){
     margin-top: 1.2rem;
     background: url(../images/04.gift/05_Article_Image_Desktop_1168x780_anas.png) no-repeat;
+}
+#gift .service{
+    width: 100%;
+}
+#gift .service p{
+    width: 52%;
+    height: 5rem;
+    margin: 3rem auto;
+    line-height: 5rem;
+}
+#gift .service p.title{
+    text-align: center;
+    font-size: 2.8rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.16);
+    border-radius: 1rem;
+}
+#gift .service p.list img{
+    height: 100%;
+    margin-right: 18%;
+}
+#newslettter{
+    position: relative;
+    width: 100%;
+}
+#newslettter::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 0.1rem;
+    background-color: #CECECE;
 }
