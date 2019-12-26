@@ -33,6 +33,7 @@ $("document").ready(function(){
         sub.show()
     }, function(){
         subMenu.hide()
+        sub.hide()
     });     // 서브 메뉴에 호버시에도 메뉴 유지하게 설정 끝
 
 
