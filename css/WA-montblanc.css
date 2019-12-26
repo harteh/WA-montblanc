@@ -81,6 +81,7 @@ header .join{
     top: 7vh;
     display: none;
     transition: all 0.5s;
+
 }
 #dep1 ul{
     width: 50%;
@@ -94,6 +95,7 @@ header .join{
     font-size: 3vw;
     font-weight: bold;
     text-transform: uppercase;
+    padding-right: 30px;
 }
 #dep1 ul li.bottom-menu{
     text-transform: none;
@@ -122,6 +124,9 @@ header .join{
     top: 7vh;
     left: 50%;
     z-index: 96;
+    display: block;
+}
+#dep2 ul{
     display: none;
 }
 #dep2 ul li{
