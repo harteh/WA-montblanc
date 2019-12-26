@@ -1,13 +1,5 @@
 $("document").ready(function(){
     
-    $(window).scroll(function(){
-        // 세로 슬라이드 시 적용 된것을 가로 슬라이드 시 적용으로 후처리 필요
-        var current = ($(window).scrollTop() / ($(document).outerHeight() - $(window).height())) * 100;
-        // outerHeight = 보더 값을 포함한 세로길이 값
-        $(".disney-indicator").width(current + "%")
-    });
-    // 디즈니 슬라이드 인디게이터 설정  끝
-
     var menu = $("header .menu ul"),
         nav = $("#dep1"),
         nav_li = $("#dep1 ul li"),
@@ -28,7 +20,21 @@ $("document").ready(function(){
         $("#dep2").hide()
         subMenu.hide()
     });     // 하위 메뉴 설정 끝
+    
 
-    var swiper = new Swiper('.swiper-container');
+    var swiper = new Swiper('#disney .swiper-container', {
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: true,
+        },
+        slidesPerView: 2
+    });     // 디즈니 아이템 슬라이드 끝
+
+    var swiper = new Swiper('#trolley .swiper-container',{
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });     // 트롤리 슬라이드 끝
 
 })

@@ -146,7 +146,7 @@ header .join{
     left: 14%;    
 }
 /* 메인 상단 디즈니 컬렉션 영역 */
-#disney .slide{
+#disney .swiper-container{
     width: 100%;
     height: 38vh;
     margin-top: 5rem;
@@ -154,38 +154,38 @@ header .join{
     /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
     overflow: hidden;
 }
-#disney .slide .slide-wrap{
+#disney .swiper-container .swiper-wrapper{
     /* 아이템 5개 */
-    width: 250%;
+    width: 100%;
     height: 100%;
-    margin-left: 19%;
+    /* margin-left: 19%;     */
 }
-#disney .slide .slide-wrap .item{
+#disney .swiper-container .swiper-wrapper .swiper-slide{
     width: 20%;
     height: 100%;
     float: left;
 }
-#disney .slide .slide-wrap .item img{
+#disney .swiper-container .swiper-wrapper .swiper-slide img{
     width: 39vw;
     height: 22vh;
     padding-left: 20%;
 }
-#disney .slide .slide-wrap .item .txt{
+#disney .swiper-container .swiper-wrapper .swiper-slide .txt{
     width: 100%;
     height: 8.38vh;
     margin-top: 1.76rem;
     color: #000;
     text-align: center;
 }
-#disney .slide .slide-wrap .item .txt p{
+#disney .swiper-container .swiper-wrapper .swiper-slide .txt p{
     font-size: 3.5vw;
     margin-bottom: 0.4rem;
 }
-#disney .slide .slide-wrap .item .txt p:last-child{
+#disney .swiper-container .swiper-wrapper .swiper-slide .txt p:last-child{
     margin-top: 0.44rem;
 }
 /* 디즈니 슬라이드 하단 인디게이터 영역  */
-#disney .slide .disney-indicator{
+#disney .swiper-container .disney-indicator{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -199,17 +199,25 @@ header .join{
     width: 100%;
     position: relative;
 }
-#trolley .tr-arrow{
+#trolley::before{
+    content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 20%;
+    width: 65%;
+    height: 0.15rem;
+    top: -4%;
+    left: 35%;
+    background-color: #CECECE;
 }
-#trolley .tr-arrow i.fas{
-    font-size: 4vw;
+#trolley p.name{
+    color: #666;
+    position: absolute;
+    top: -3rem;
+    left: 1.8%;
+    text-transform: uppercase;
 }
-#trolley .tr-arrow i.fas:first-child{
-    margin-right: 40%;
+#trolley .swiper-button-next,
+#trolley .swiper-button-prev{
+    color: #000;
 }
 #trolley .swiper-container{
     width: 100%;
