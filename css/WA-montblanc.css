@@ -39,16 +39,29 @@ header > div img{
 }
 header .menu{
     width: 5.46vw;
+    height: 4vh;
     margin-left: 1.8%;
 }
-li.line{
+header .menu .line{
     width: 100%;
     height: 0.2rem;
     background-color: #000;
+    transition: 0.5s;
 }
-li.line:nth-child(2){
+.line:nth-child(2){
     margin: 0.5rem auto;
 }
+/* toggle class */
+.menu.close .line:nth-child(1){
+    transform: rotate(-45deg) translate(-7px, 8px);
+}
+.menu.close .line:nth-child(2){
+    opacity: 0;
+}
+.menu.close .line:nth-child(3){
+    transform: rotate(45deg) translate(-2px, -3px);
+}
+/* toggle class */
 header .logo{
     margin: auto 28%;
     width: 27.65vw;
