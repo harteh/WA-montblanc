@@ -211,27 +211,27 @@ header .join{
 #trolley .tr-arrow i.fas:first-child{
     margin-right: 40%;
 }
-#trolley .tr-slide{
+#trolley .swiper-container{
     width: 100%;
     height: 74.96vh;
     /* 후처리: 슬라이드 작성 시 overflow 적용하기 */
     overflow: hidden;
 }
-#trolley .tr-slide .tr-slide-wrap{
+#trolley .swiper-container .swiper-wrapper{
     width: 300%;
     height: 100%;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item{
+#trolley .swiper-container .swiper-wrapper .swiper-slide{
     width: 33.33%;
     height: 100%;
     float: left;
 }
 /* 트롤리 배너 상단 영역 - 메인 타이틀 + 사진 */
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-top{
     width: 100%;
     height: 47.6vh;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .txt{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-top .txt{
     margin-left: 1.8%;
     width: 100%;
     height: 7.49vh;
@@ -239,37 +239,37 @@ header .join{
 #trolley p.title{
     margin: 0.7rem auto;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .pic{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-top .pic{
     width: 100%;
     height: 39.68vh;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-top .pic img{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-top .pic img{
     width: 100%;
     height: 100%;
 }
 /* 트롤리 배너 하단 영역 - 상품 설명 + 사진 */
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom{
     width: 100%;
     height: 22.92vh;
     margin-top: 1rem;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left{    
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom .bottom-left{    
     float: left;
     padding: 6.5% 0 6.5% 1.8%;
     width: 55%;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left p{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom .bottom-left p{
     font-size: 3.5vw;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-left p:last-child{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom .bottom-left p:last-child{
     margin-top: 0.75rem;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom .bottom-right{
     float: left;
     width: 39.06%;
     padding-top: 2.5%;
 }
-#trolley .tr-slide .tr-slide-wrap .tr-item .tr-item-bottom .bottom-right img{
+#trolley .swiper-container .swiper-wrapper .swiper-slide .tr-item-bottom .bottom-right img{
     width: 100%;
     height: 100%;
 }

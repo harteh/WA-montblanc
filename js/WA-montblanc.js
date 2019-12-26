@@ -29,4 +29,6 @@ $("document").ready(function(){
         subMenu.hide()
     });     // 하위 메뉴 설정 끝
 
+    var swiper = new Swiper('.swiper-container');
+
 })
