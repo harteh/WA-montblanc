@@ -40,7 +40,7 @@ $("document").ready(function(){
     var swiper = new Swiper('#disney .swiper-container', {
         scrollbar: {
             el: '.swiper-scrollbar',
-            hide: true,
+            hide: false,
         },
         slidesPerView: 2
     });     // 디즈니 아이템 슬라이드 끝
